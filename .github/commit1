@@ -1,0 +1,9 @@
+As a user of OrderedDLL, using the Remove (T element) method should remove an element from the list based on the input from the user, well maintaining list order.
+References task #6
+Acceptance Criteria:
+ Given an empty list, when (A) is removed, then nosuchelementexception
+ Given List A, when (A) is removed, then (A) is returned
+ Given List B, when (A) is removed, then nosuchelementexception
+ Given List AB, when (B) is removed, then (B) is returned
+ Given List AB, when (A) is removed, then (A) is returned
+ Given List ACB, when (C) is removed, then (C) is returned
