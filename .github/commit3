@@ -1,0 +1,9 @@
+As a user, using the Remove (T element) method should remove an element from the list based on the input from the user, well maintaining list order.
+References task #6
+Acceptance Criteria:
+ Given an empty list, when (C) is removed, then nosuchelementexception
+ Given List C, when (C) is removed, then (C) is returned
+ Given List C, when (A) is removed, then nosuchelementexception
+ Given List CB, when (B) is removed, then (B) is returned
+ Given List CB, when (C) is removed, then (C) is returned
+ Given List ACB, when (C) is removed, then (C) is returned
